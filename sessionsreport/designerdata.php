@@ -8,7 +8,7 @@ $sku = $result['product_code'];
 $insertTable= mysql_query("update `tbl_products` set `Name` = '$name' where SKU = '$sku' and `Product_Type` = 'D'");	
 if($insertTable == 1)
 				{
-					$msg = 'Record has been added.';
+					$msg = 'Record has been added. Today';
 				}
 				else
 				{
