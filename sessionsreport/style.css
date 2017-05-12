@@ -1,0 +1,166 @@
+/*CSS*/
+a {text-decoration:none;}
+.login {
+    background: #008cba;
+    margin: 10% auto;
+    padding: 5%;
+    width: 450px;
+	color:#fff;
+}
+.inner-pages {
+    background: #008cba none repeat scroll 0 0;
+    margin: 5% auto;
+    padding: 3% 5%;
+    width: 600px;
+}
+
+#loginform input[type="text"], #loginform input[type="password"] {
+    padding: 8px;
+    width: 450px;
+}
+#ipform select {
+    padding: 8px;
+    width: 500px;
+}
+#loginform input[type="submit"] {
+    float: right;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+}
+#ipform input[type="text"], #ipform input[type="password"] {
+    padding: 8px;
+    width: 500px;
+}
+#ipform input[type="submit"] {
+    float: right;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+}
+.errormsg 
+{
+	color:#ff0000;
+	
+}
+.logout-btn {
+    background: #333 none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 75px;
+}
+.report-btn {
+    background: #333 none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    width: 152px;
+	text-align:center;
+}
+.top-ribbon {
+    background: #008cba none repeat scroll 0 0;
+    padding: 2px;
+}
+.first {
+    display: inline-block;
+    width: 30%;
+}
+.middle {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+	color:#fff;
+}
+.middle h2 {text-transform:uppercase;}
+#loginform label {
+    display: block;
+    float: left;
+    width: 100px;
+}
+#ipform label {
+    display: block;
+    float: left;
+    width: 100px;
+}
+/*Popup*/
+.black_overlay {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+.white_content {
+  display: none;
+  position: fixed;
+  top: 15%;
+  left: 8%;
+  width: 85%;
+  height: 70%;
+  background-color: white;
+  z-index: 1002;
+  overflow: auto;
+}
+.topbaner {
+    background: #555 none repeat scroll 0 0;
+    color: #fff;
+    padding: 5px;
+	position:fixed;
+	width:83%;
+	z-index: 9999;
+}
+.topbaner > a {
+    color: #fff;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+	font-size:20px;
+	font-family:Arial;
+	font-weight:bold;
+	padding-right:5px;
+}
+.pop-content
+{
+	padding:16px;
+	margin-top:25px;
+}
+#userdata {margin-top:15px;}
+.topbaner > span {
+    display: inline-block;
+    float: left;
+	font-weight:bold;
+}
+.buttons-excel
+{
+	background: #008CBA;
+	color:#fff;
+	padding:6px 20px;
+	border:none;
+}
+#ajax-loader {
+  background-color: rgba(255,255,255,0.7);
+  position: absolute;
+  z-index: +100 !important;
+  width: 100%;
+  height:100%;
+}
+
+#ajax-loader img {
+  position: relative;
+  top:15%;
+  left:50%;
+}
