@@ -37,7 +37,7 @@ if(isset($_REQUEST['submit']))
 					<th>Items in Cart</th>
 					<th>Total PO Raised</th>
 					<th>Visit After PO Raised</th>
-					<th>User Status</th>
+					<th>User Status Changes by Ankit</th>
 				</tr>
 			</thead>
 			<tbody>
